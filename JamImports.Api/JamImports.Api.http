@@ -1,0 +1,13 @@
+@JamImports.Api_HostAddress = http://localhost:5246
+
+POST {{JamImports.Api_HostAddress}}/api/produtos
+Content-Type: application/json
+
+{
+  "nome": "Short Boss Preto",
+  "tamanho": "G",
+  "preco": 129.90
+}
+
+### 2. Listar o estoque atual
+GET {{JamImports.Api_HostAddress}}/api/produtos
