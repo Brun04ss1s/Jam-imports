@@ -1,0 +1,31 @@
+# ==========================================
+# GERAL / SISTEMA OPERACIONAL
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# .NET / C# / VISUAL STUDIO
+# ==========================================
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+appsettings.Development.json
+
+# ==========================================
+# JAVA / MAVEN / INTELLIJ IDEA
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+.classpath
+.project
+.settings/
